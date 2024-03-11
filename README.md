@@ -4,6 +4,8 @@ https://www.youtube.com/watch?v=FtaQSdrl7YA
 
 https://raw.githubusercontent.com/RodrigoMvs123/JavaScript-Tutorial-for-Beginners-JS-Crash-Course-2024/main/README.md
 
+https://github.com/RodrigoMvs123/JavaScript-Tutorial-for-Beginners-JS-Crash-Course-2024/blame/main/README.md
+
 How the web and websites work
 
 Frontend Code: HTML + CSS + JavaScrip ( Frontend and Backend ) 
