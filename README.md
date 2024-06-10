@@ -1,4 +1,4 @@
-# JavaScript-Tutorial-for-Beginners-JS-Crash-Course-2024
+## JavaScript-Tutorial-for-Beginners-JS-Crash-Course-2024
 
 https://www.youtube.com/watch?v=FtaQSdrl7YA 
 
@@ -6,26 +6,32 @@ https://raw.githubusercontent.com/RodrigoMvs123/JavaScript-Tutorial-for-Beginner
 
 https://github.com/RodrigoMvs123/JavaScript-Tutorial-for-Beginners-JS-Crash-Course-2024/blame/main/README.md
 
-How the web and websites work
+## How the web and websites work
 
 Frontend Code: HTML + CSS + JavaScrip ( Frontend and Backend ) 
 
 HTML
+```bash
 Text, image, link
 Structure of webpage
 No styling 
+```
 
 CSS
+```bash
 Styling of a webpage
 Colors, Fonts, Positioning 
+```
 
 JavaScript
+```bash
 Upload photo
 Send message
 Like picture or comment 
+```
 
-Backend Code
-
+## Backend Code
+```javascript
 “Lives” in the back ( NOT in the browser )
 Makes it available to others
 Keep history of messages ( data )
@@ -45,10 +51,12 @@ Like a warehouse for data
 
 Where do backend code and database “lives” ?
 Servers
+```
 
-Introduction to JavaScript
-
+## Introduction to JavaScript
+```javascript
 What are JavaScript frameworks ?
+
 Framework is:
 Improved version of pure vanilla JavaScript
 Pre-written JavaScript code
@@ -69,7 +77,8 @@ Boolean     true
 Array         [2, 33, 0]
 Object       { “age”: 28 }
 
-Where to write JavaScript 
+Where to write JavaScript ?
+
 for the start: Use the Browser
 Browser interprets you JavaScript code
 Each Browser comes packaged with “Developer Tools”
@@ -107,7 +116,9 @@ Object group information
 Syntax {}
 Key Value pairs
 {authorName: “user12”, rating: 5, explanation: “great product”}
+```
 
+```bash
 {
 	location: “address 12/34”,
 	price: “70”,
@@ -119,14 +130,15 @@ Key Value pairs
 
 [
 	{authorName: “user12”, rating: 5, explanation: “great product”},
-{authorName: “user34”, rating: 4.5, explanation: “It is ok I guess”},
-{authorName: “user56”, rating: 4, explanation: “nothing special”}
+    {authorName: “user34”, rating: 4.5, explanation: “It is ok I guess”},
+    {authorName: “user56”, rating: 4, explanation: “nothing special”}
 ]
+```
 
-Working with Numbers 
+## Working with Numbers 
 
 … to write the logic
-
+```javascript
 Addition 
 Multiplication
 Subtraction 
@@ -155,27 +167,36 @@ On friends lists
 On products discounts 
 
 You give a variable a name, which makes sense for that value
+
 productAPrice = 50 
+```
+```javascript
 var userName = “app-user-A”
 
 	var productAPrice = 50
 	“product-A price: $” + productAPrice
 		“productAPrice: $50”
+```
 
 Multi-Language Applications
+
 User Input
 
+```javascript
 let emailOrPhoneNumber
 let fullName
 let userName
 let password
+```
 
+```javascript
 validateEmail(emailOrPhoneNumber)
 isLenghtGreatThan20(password)
+```
 
-Where to write and execute JavaScript ?
-
+## Where to write and execute JavaScript ?
 1 - Browser Console
+```javascript
 Developer Tools
 Inspect 
 Console
@@ -183,8 +204,10 @@ Console
 Disadvantages of Browser
 After refreshing the Browser, your JavaScript code is gone
 One command at a time
+```
 
 2 - File
+```javascript
 Write JavaScript code in a file
 Create a basic HTML file ( Simple Text Editor )
 Notepad 
@@ -194,9 +217,10 @@ Notepad
 </body>
 
 Save file format: .html
+```
 
 2.1 - JavaScript code inside <script>
-
+```javascript
 <script>
 var name = “some-name”
 </script>
@@ -204,20 +228,24 @@ var name = “some-name”
 <body> 
 
 </body>
+```
 
 2.2 - Especial Code Editors
+```javascript
 Support for different programming languages 
 They have different features to help you in write your code
 Making you more productive as a developer
+```
 
-Webstorm from JetBrains 
-
+## Webstorm from JetBrains 
 Download Webstorm IDE and create a new Project
 
 https://www.jetbrains.com/webstorm/download/?source=google&medium=cpc&campaign=AMER_en_BR_WebStorm_Branded&term=webstorm&content=523833970790&gad_source=1&gclid=CjwKCAiA_5WvBhBAEiwAZtCU75JzDkObuFK8fsLoEYNdIcoe3IKXIYUBaZYwoDO7Mk6PT4Uvb1tvQRoCjNkQAvD_BwE#section=windows 
 
-js-app
+- js-app
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer 
 Open Editors 
@@ -242,7 +270,9 @@ index.html
 
 </body>
 </html>
+```
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -253,7 +283,9 @@ app.js
 let name = "some-name"
 console.log(name)
 console.log("output in console")
+```
 
+```javascript
 
 Visual Studio Code
 Explorer
@@ -276,11 +308,12 @@ index.html
 
 </body>
 </html>
+```
 
-Conditionals and Operators 
-
+## Conditionals and Operators 
 Comparison Operator
 
+```javascript
 Facebook Display Birthday 
 Today equals birthday ?
 Today === birthday 
@@ -290,7 +323,10 @@ Conditional ( if else )
 if totalPrice > 20 is true
 then offer free shipping 
 otherwise charge 5 $
+```
 
+## Source Code
+```javascript
 example.js
 let totalPrice = 19;
 let shippingCost;
@@ -306,7 +342,9 @@ if (totalPrice <= 20) {
 } else {
 	shippingCost = 0
 }
+```
 
+```javascript
 exemple2.js
 if (totalPrice <= 10) {
 	shippingCost = 5
@@ -315,11 +353,16 @@ if (totalPrice <= 10) {
 } else {
 	shippingCost = 0
 }
+```
 
 Not equals
+```javascript
 userMembership === premium
 userMembership !== premium
+```
 
+## Source Code
+```javascript
 example.js
 let userMembership;
 
@@ -329,11 +372,16 @@ if (userMembership !== ‘premium’) {
 } else {
 	// show premium conten
 }
+```
 
 Logical Operator 
 
+```javascript
 todayDate === birthdayDate and birthdayDisplayed === true
+```
 
+## Source Code
+```javascript
 exemple.js
 // todayDate === birthdayDate and birthdayDisplayed === true
 let todayDate;
@@ -345,7 +393,9 @@ if (todayDate === birthdayDate and birthdayDisplayed === true) {
 } else {
 	do not 
 }
+```
 
+```javascript
 exemple2.js
 let totalPrice;
 let amazonPrime;
@@ -355,7 +405,9 @@ if (totalPrice > 20 || amazonPrime === true) {
 } else {
 	// no free shipment
 }
+```
 
+```javascript
 exemple.js
 let totalPrice;
 let amazonPrime;
@@ -365,9 +417,12 @@ if (!(totalPrice > 20 || amazonPrime === true)) {
 } else {
 	// no free shipment
 }
+```
 
-Functions in Javascript
+## Functions in Javascript
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -392,9 +447,11 @@ function calculateShippingCost() {
 }
 
 calculateShippingCost()
+```
 
 Functions Parameters
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -427,9 +484,11 @@ totalPrice = 10
 totalPrice = 19
 // ready to order
 calculateShippingCost(totalPrice)
+```
 
 “Const” Use Case
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -473,18 +532,13 @@ totalPrice = 24
 calculateShippingCost(totalPrice)
 
 // place the order
+```
 
 Names Conventions
 
 CamelCase
-
+```javascript
 Way to separate the words
 Start with a small letter, the later words start with a capital letter
 Commonly used in programming and naming convention
-
-
-
-
-
-
-
+```
